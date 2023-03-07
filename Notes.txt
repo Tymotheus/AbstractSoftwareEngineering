@@ -1,0 +1,15 @@
+Important article about statements vs expressions: https://www.freecodecamp.org/news/statement-vs-expression-whats-the-difference-in-programming/#:~:text=The%20Main%20Differences%20Between%20an,values%20or%20execute%20to%20values.
+
+
+The Main Differences Between an Expression and a Statement in Programming
+
+Expressions can be assigned or used as operands, while statements can only be declared.
+Statements create side effects to be useful, while expressions are values or execute to values.
+Expressions are unique in meaning, while statements are two-sided in execution. For example, 1 has a certain value while go( ) may be executed or not.
+Statements are the whole structure, while expressions are the building blocks. For example, a line or a block of code is a statement.
+
+
+1st lab notes for Eclipse Modelling Framework:
+- function call class can inherit after statement
+- refering to v1 of Metaclass Diagram, replace lines with statements
+- line numbers are redundant: any class can come with ordered property

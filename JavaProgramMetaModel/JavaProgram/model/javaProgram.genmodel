@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/JavaProgram/src-gen" creationIcons="false" editDirectory="/JavaProgram.edit/src-gen"
+    editorDirectory="/JavaProgram.editor/src-gen" modelPluginID="JavaProgram" modelName="JavaProgram"
+    rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" codeFormatting="true"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="15.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>javaProgram.ecore</foreignModel>
+  <testsDirectory xsi:nil="true"/>
+  <genPackages prefix="JavaProgram" disposableProviderFactory="true" ecorePackage="javaProgram.ecore#/">
+    <genClasses ecoreClass="javaProgram.ecore#//JavaProgram">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference javaProgram.ecore#//JavaProgram/types"/>
+    </genClasses>
+    <genClasses ecoreClass="javaProgram.ecore#//JavaClass">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference javaProgram.ecore#//JavaClass/fields"/>
+    </genClasses>
+    <genClasses ecoreClass="javaProgram.ecore#//Property">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute javaProgram.ecore#//Property/name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference javaProgram.ecore#//Property/type"/>
+    </genClasses>
+    <genClasses ecoreClass="javaProgram.ecore#//Type">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute javaProgram.ecore#//Type/name"/>
+    </genClasses>
+    <genClasses ecoreClass="javaProgram.ecore#//PrimitiveType"/>
+  </genPackages>
+</genmodel:GenModel>
