@@ -13,3 +13,7 @@ Statements are the whole structure, while expressions are the building blocks. F
 - function call class can inherit after statement
 - refering to v1 of Metaclass Diagram, replace lines with statements
 - line numbers are redundant: any class can come with ordered property
+
+
+Keep it simpler!
+Make statements consist only of strings!
