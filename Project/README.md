@@ -25,3 +25,19 @@ It will allow to describe a game strategy, using easy to use and understand for 
 (.dominion files)
 
 Ideally, this will later allow to compile (translate) given .dominion files into python scripts (.py) allowing for their execution and simulation. Such a python file can be considered desired "external artifact"
+
+## Developer diary
+Strategy should look like this:
+For now should depend only on your hand and money
+
+List of assertions with actions:
+Action Phase: [might be empty]
+1. Market in hand => play Market
+2. Mine in hand and copper in hand => play Mine (on copper?)
+Buy Phase:
+1. Purse >= 8 => buy Province
+2. Purse >= 3 => buy Silver
+
+Nice thing would be: if you can not execute an action - pass
+How to implement triggers (can not draw cards if pile == 0) without getting lost?
+And without making it cluttered?
