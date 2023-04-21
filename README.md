@@ -51,4 +51,4 @@ There are couple of inaccuracies of the project, some of them I am aware of but 
 
 ### Other remarks
 MDL was my 3rd attempt to create a language built upon this model, .dmn and .dmns languages were abandoned.
-I estimate I spent more than 50 hours on this project.
+I estimate I spent more than 50 hours on this project. (probably half of it committed to fighting with the terrrible emf docs and lack of tutorials)
